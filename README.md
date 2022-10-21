@@ -1,9 +1,7 @@
 # Vite + TailwindCSS (no framework)
 
-`npm start` will...start the `localhost:3000` server.
+This form submission will take in first name, last name, username, email and phone number in order to display them. The purpose of for a user to sign up for something, possible even a rewards system, and verify that everything is correct.
 
-There is some opinionated/standard stuff included for ESLint and Prettier. These are wired up to do some automatic things in VS Code via [`settings.json`](./.vscode/settings.json). For example, as soon as you leave the file it will auto save, format and even fix linting stuff for you. If that's too much, you may want to reconfigure it.
+React will be used to inject the users input on the second column on the table to show what they typed HOW they typed. This allows the user to see what they are sending to the serverside. It is one thing to say they typed it correctly, it is another to see it on a table.
 
-Finally, there are a few [recommended extensions](./.vscode/extensions.json). You'll probably want these.
-
-Hope it helps. Give it a ⭐, will ya? 🤓
+Working at a place that I enter customer data randomly for rewards I know how incorrectly inputing information can be frustrating, this way it gives people a little more piece of mind.
